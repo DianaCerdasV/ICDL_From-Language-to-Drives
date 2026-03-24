@@ -1,0 +1,6 @@
+Goal	Neighbor1	Neighbor2
+goal_0	red_cylinder_in_hand_drive	
+goal_1	red_cylinder_in_blue_basket_drive	
+reach_pnode_0	pnode_GRIPPER_AND_LOW_FRICTION__goal_0__grasp_right	goal_0
+reach_pnode_1	pnode_GRIPPER_AND_LOW_FRICTION__goal_1__place_object_right	goal_1
+reach_pnode_2	pnode_GRIPPER_AND_LOW_FRICTION__goal_0__press_button	goal_0

@@ -1,0 +1,12 @@
+Goal	Neighbor1	Neighbor2
+alignment_goal	[{'name': 'alignment_drive', 'node_type': 'Drive'}]
+effect_robot_hand_state	[{'name': 'object1', 'node_type': 'Perception'}, {'name': 'object2', 'node_type': 'Perception'}, {'name': 'robot_hand', 'node_type': 'Perception'}, {'name': 'goal_1', 'node_type': 'Goal'}]
+effectance_goal	[{'name': 'effectance_drive', 'node_type': 'Drive'}]
+external_effects_goal	[{'name': 'external_effects_drive', 'node_type': 'Drive'}]
+goal_0	[{'name': 'red_cylinder_in_hand_drive', 'node_type': 'Drive'}]
+goal_1	[{'name': 'red_cylinder_in_blue_basket_drive', 'node_type': 'Drive'}]
+novelty_goal	[{'name': 'novelty_drive', 'node_type': 'Drive'}]
+prospection_goal	[{'name': 'prospection_drive', 'node_type': 'Drive'}]
+reach_pnode_0	[{'name': 'pnode_GRIPPER_AND_LOW_FRICTION__goal_0__grasp_right', 'node_type': 'PNode'}, {'name': 'goal_0', 'node_type': 'Goal'}]
+reach_pnode_1	[{'name': 'pnode_GRIPPER_AND_LOW_FRICTION__goal_1__place_object_right', 'node_type': 'PNode'}, {'name': 'goal_1', 'node_type': 'Goal'}]
+reach_pnode_2	[{'name': 'pnode_GRIPPER_AND_LOW_FRICTION__goal_0__press_button', 'node_type': 'PNode'}, {'name': 'goal_0', 'node_type': 'Goal'}]
